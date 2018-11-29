@@ -11,6 +11,9 @@
 // Date : Nov/22/2018
 //
 // * * * * * * * * * * * * * * * * * * * * * * * * * *
+#ifndef BOOK_H
+  #define BOOK_H
+
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -44,3 +47,4 @@ class Book{
     bool match(string target);
     void outputBook();
 };
+#endif
